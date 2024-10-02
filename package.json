@@ -1,20 +1,17 @@
 {
-  "author": "Christian Bromann <christian@saucelabs.com>",
+  "name": "gu-webdriverio-cucumber-boilerplate",
   "license": "MIT",
-  "name": "cucumber-boilerplate",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "Boilerplate project to run WebdriverIO tests with Cucumber",
-  "homepage": "https://github.com/webdriverio/cucumber-boilerplate",
+  "homepage": "https://github.com/gu-corp/gu-webdriverio-cucumber-boilerplate",
   "type": "module",
-  "contributors": [
-    "W. van Kuipers <github@pwnd.nl>"
+  "files": [
+    "src/steps",
+    "src/support"
   ],
   "repository": {
     "type": "git",
-    "getUrl": "https://github.com/webdriverio/cucumber-boilerplate.git"
-  },
-  "bugs": {
-    "getUrl": "https://github.com/webdriverio/cucumber-boilerplate/issues"
+    "getUrl": "https://github.com/gu-corp/gu-webdriverio-cucumber-boilerplate.git"
   },
   "keywords": [
     "wdio",
@@ -39,7 +36,6 @@
     "@typescript-eslint/parser": "^8.7.0",
     "@wdio/cli": "9.1.2",
     "@wdio/config": "9.1.2",
-    "@wdio/cucumber-framework": "9.1.2",
     "@wdio/globals": "9.1.2",
     "@wdio/local-runner": "9.1.2",
     "@wdio/spec-reporter": "9.1.2",
@@ -56,5 +52,8 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.6.2",
     "webdriverio": "9.1.2"
+  },
+  "peerDependencies": {
+    "@wdio/cucumber-framework": "9.x"
   }
 }
