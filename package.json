@@ -1,9 +1,9 @@
 {
-  "name": "gu-webdriverio-cucumber-boilerplate",
+  "name": "@gu-corp/webdriverio-cucumber-boilerplate",
   "license": "MIT",
   "version": "1.0.0",
   "description": "Boilerplate project to run WebdriverIO tests with Cucumber",
-  "homepage": "https://github.com/gu-corp/gu-webdriverio-cucumber-boilerplate",
+  "homepage": "https://github.com/gu-corp/webdriverio-cucumber-boilerplate",
   "type": "module",
   "files": [
     "src/steps",
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "getUrl": "https://github.com/gu-corp/gu-webdriverio-cucumber-boilerplate.git"
+    "getUrl": "https://github.com/gu-corp/webdriverio-cucumber-boilerplate.git"
   },
   "keywords": [
     "wdio",
